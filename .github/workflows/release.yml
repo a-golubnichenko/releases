@@ -1,4 +1,4 @@
-name: deployment
+name: create build and deployment data
 
 on:
   release:
@@ -9,4 +9,4 @@ jobs:
     environment: production
     steps:
       - name: deploy
-        run: echo Released
+        run: echo Creating build and deployment data
